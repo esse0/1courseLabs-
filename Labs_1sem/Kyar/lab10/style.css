@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: 1% 1% 2% 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell1, .cell2, .cell3, .header {
+	text-align: center;
+	border: 2px solid black;
+	font-size: 30px;
+}
+
+.header{
+	min-width: 224px;
+	width: 100%;
+	flex-direction: row;
+	margin-bottom: 1%;
+}
+
+.cell1 {
+	min-width: 224px;
+	flex: 1 1;
+	margin-bottom: 1%;
+	margin-right: 0.5%;
+}
+
+.cell2 {
+	min-width: 224px;
+	flex: 1 1 ;
+	margin-bottom: 1%;
+	margin-right: 0.5%;
+}
+
+.cell3 {
+	min-width: 224px;
+	flex: 1 1;
+	margin-bottom: 1%;
+}
+.main {
+	display: flex;
+	width: 70%;
+	margin: 0 auto 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.cell4, .cell5 {
+	border: 2px solid black;
+	font-size: 30px;
+	width: 40%;
+	min-width: 300px;
+	max-width: 470px;
+	margin-bottom: 2px;
+}
+.imag{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+figure{
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 5px;
+}
+@media (max-width:  750px) {
+	div .cell2{
+		margin-right: 0;
+	}
+	body .main{
+		justify-content: center;
+	}
+}
+
+@media (max-width:  500px) {
+	div .cell1{
+		margin-right: 0;
+	}
+}
+
+@media(min-width: 1280px){
+	.imag img{
+		width:300px;
+		height: 300px;
+	}
+	figure{
+		font-size: 25px;
+		font-weight: bold;
+	}
+}

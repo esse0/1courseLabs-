@@ -1,0 +1,25 @@
+to{
+    margin: 50px;
+    color: slateblue;
+}
+from{
+    margin: 30px;
+    color: skyblue;
+}
+city{
+    margin: 30px;
+    color: seagreen;
+}
+note{
+    margin: 30px;
+    color: red;
+}
+TIME{
+    color: red;
+}
+EXAM{
+    color: springgreen;
+}
+PASSING{
+    color: lavenderblush;
+}

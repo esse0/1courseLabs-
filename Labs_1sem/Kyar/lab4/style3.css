@@ -1,0 +1,20 @@
+table{
+	border-collapse: collapse;
+}
+td{
+	border: 1px solid black;
+	height: 30px;
+    width: 30px;
+}
+.desk tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even){
+	background-color: black;
+}
+.desk tr td:last-child,
+.desk tr:first-child td,
+.desk tr:last-child td,
+.desk tr td:first-child {
+	background-color: red !important;
+	height: 5px;
+	width: 5px;
+}

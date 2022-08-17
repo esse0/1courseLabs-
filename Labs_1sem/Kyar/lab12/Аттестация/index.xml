@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ex03-1.xsl'?>
+<NACH>
+    <TABLIZA>
+        <NAME> Andrew </NAME>
+        <OZENKA> 10 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Kirill </NAME>
+        <OZENKA> 9 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Anton </NAME>
+        <OZENKA> 8 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Ilia </NAME>
+        <OZENKA> 2 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Alexandr </NAME>
+        <OZENKA> 4 </OZENKA>
+    </TABLIZA>
+ <TABLIZA>
+        <NAME> Artem </NAME>
+        <OZENKA> 1 </OZENKA>
+    </TABLIZA>
+</NACH>

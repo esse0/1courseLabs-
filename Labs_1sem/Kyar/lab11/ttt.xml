@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?xml-stylesheet type="text/css" href="style.css"?> 
+<!DOCTYPE note [ 
+<!ELEMENT note (to, from, Sbj, msg)> 
+<!ELEMENT to (#PCDATA)> 
+<!ELEMENT from (#PCDATA)> 
+<!ELEMENT Sbj (#PCDATA)> 
+<!ELEMENT msg (#PCDATA)> 
+<!ENTITY name "Hello, world!">
+]> 
+<note> 
+    <element>&name;</element> 
+    <sush>&lt;&lt;&lt;&lt;&lt;&lt;</sush>
+	<to>Анна</to> 
+	<from>Андрей</from> 
+	<heading>Напоминание</heading> 
+	<body>Не забудь обо мне в эти выходные!</body> 
+</note> 

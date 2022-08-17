@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title class="title1">Viaggio | Главная страница</title>
+    <link rel="stylesheet" href="style/head_main_footer.css">
+    <link rel="stylesheet" href="style/frstpage.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/plane16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/plane32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="media/favicon/plane96.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+</head>
+<body>
+    <header class="head">
+        <div class="container">
+            <nav>
+                <div class="logo"><a class="lng-n0" href="firstpage.html"><img src="media/VectorLogo.svg" alt="Viaggio"></a></div>
+                <ul class="navigation">
+                    <li><a class="lng-n1" href="tariffpage.html">Тарифы</a></li>
+                    <li><a class="lng-n2" href="specialOfferspage.html">Спецпредложения</a></li>
+                    <li><a class="lng-n3" href="infopage.html">Информация</a></li>
+                    <li><a class="lng-n4" href="https://www.hotelhunter.com">Отели</a></li>
+                    <li class="last">
+                        <div class="leng">
+                            <select class="GlLeng RU">
+                                <option value="ru" selected>RU</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+                <div class="menu_icon">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="menu">
+                <form>
+                    <ul class="m_buttons left">
+                        <li class="button1"><a class="lng-b1">Бронирование</a></li>
+                        <li class="button2"><a class="lng-b2">Онлайн регистрация</a></li>
+                        <li class="button3"><a class="lng-b3" href="https://www.hotelhunter.com">Отели</a></li>
+                    </ul>
+                    <div class="m_inputs tab1">
+                        <div class="el">
+                            <input type="text" required class="from lng-fr" placeholder=" Город вылета">
+                            <input type="text" required class="to lng-to" placeholder=" Город прибытия">
+                        </div>
+                        <div class="el">
+                            <input type="date" required class="fdate">
+                            <input type="date" required class="tdate">
+                        </div>
+                        <div class="el">
+                            <select class="pass">
+                                <option class="lng-op1" selected value="">1 пас., Эконом</option>
+                                <option class="lng-op2" value="">1 пас., Комфорт</option>
+                                <option class="lng-op3" value="">1 пас., Бизнес</option>
+                                <option class="lng-op4" value="">2 пас., Эконом</option>
+                                <option class="lng-op5" value="">2 пас., Комфорт</option>
+                                <option class="lng-op6" value="">2 пас., Бизнес</option>
+                            </select>
+                            <select required class="airlines">
+                                <option class="lng-op7" selected disabled value="">Желаемые авиалинии</option>
+                                <option value="">Qatar Airways</option>
+                                <option value="">Singapore Airlines</option>
+                                <option value="">Qantas Airways</option>
+                                <option value="">Aeroflot</option>
+                                <option value="">Belavia</option>
+                            </select>
+                        </div>
+                        <input class="find lng-f1" type="button" onclick="let hash = window.location.hash.substr(1);window.location.href = 'payform.html#' + hash;" value="Найти">
+                    </div>
+                    <div class="tab2 closed">
+                        <div class="gl_el">
+                            <div class="el">
+                                <label class="lng-l1">Код бронирования, номер билета, номер программы лояльности</label>
+                                <label class="lng-l2">Фамилия, латинскими буквами</label>
+                            </div>
+                            <div class="el">
+                                <input type="text" required/>
+                                <input class="lng-inp" type="text" required placeholder="Например, IVANOV">
+                            </div>
+                        </div>
+                        <input class="find lng-f2" type="button" onclick="let hash2 = window.location.hash.substr(1);window.location.href = 'payform.html#' + hash2;" value="Зарегистрироваться">
+                    </div>
+                </form>
+            </section>
+        </div>
+        <section class="map">
+            <h1 class="text lng-text">Не знете куда поехать?<br>Мы вам поможем!</h1>
+            <script id="ymp" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8dfd86d81b505f2ac1d1faba8d2bfb080dff54a36bf605f86707ab2f201f493c&amp;width=100%&amp;height=75%&amp;lang=ru&amp;scroll=true"></script>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul class="navigation">
+                    <li><a class="lng-fo1" href="tariffpage.html">Тарифы</a></li>
+                    <li><a class="lng-fo2" href="specialOfferspage.html">Спецпредложения</a></li>
+                    <li><a class="lng-fo3" href="infopage.html">Информация</a></li>
+                    <li><a class="lng-fo4" href="https://www.hotelhunter.com">Отели</a></li>
+                </ul>
+            </nav>
+            <div class="f_f">
+                <div class="logo2">© Viaggio</div>
+                <div class="svg">
+                    <ul>
+                        <li><a href=""><img src="media/Instagram.svg" alt=" "></a></li>
+                        <li><a href=""><img src="media/Vk.svg" alt=" "></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/burger.js"></script>
+    <script src="js/tabmenu.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/local.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+}
+
+.discribe {
+  fill: #15ff77;
+  font-size: 2em;
+  text-align: center;
+}
+
+#MyPath {
+  stroke: green;
+}
+
+.col-1 {
+  fill: #7cfff4;
+}
+
+.col-2 {
+  fill: #75dd67;
+}
+
+.col-3 {
+  fill: #7a3c86;
+}
+
+.col-4 {
+  fill: #d5f719;
+}
+
+.col-5 {
+  fill: #491aa0;
+}
+/*# sourceMappingURL=1.css.map */

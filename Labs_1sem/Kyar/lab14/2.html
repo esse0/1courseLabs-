@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/1.css">
+</head>
+
+<body>
+  <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+    <radialGradient id="liner" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="blue" />
+      <stop offset="100%" stop-color="lightblue" />
+    </radialGradient>
+    <circle r="25" cy="25" cx="25" fill="url(#liner)"></circle>
+  </svg>
+  <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+
+    <rect x="" y="" width="50" height="50" fill="red"></rect>
+  </svg>
+  <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+    <ellipse rx="25" ry="15" cx="25" cy="25" fill="green"></ellipse>
+  </svg>
+  <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="lin1">
+        <stop offset="0%" stop-color="orange" />
+        <stop offset="100%" stop-color="green" />
+      </linearGradient>
+
+    </defs>
+    <path d="M 0,50 L 25,0L50,50 z" stroke="black" fill="url(#lin1)"></path>
+  </svg>
+  <svg style="display: block;" width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 0,0 L 100,0M100,0L80,20M80,20L200,20 " stroke="purple"></path>
+  </svg>
+</body>
+
+</html>

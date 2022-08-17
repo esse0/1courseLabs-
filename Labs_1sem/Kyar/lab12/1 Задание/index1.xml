@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ex03-2.xsl'?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<FACULTY>
+    <SPECIALIZATION>
+        <NAME> Andrew </NAME>
+        <TIME> 2003 </TIME>
+        <DATA> Oct. 15 </DATA>
+        <POL> M. </POL>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME> Kirill </NAME>
+        <TIME> 2003 </TIME>
+        <DATA> Okt. 12 </DATA>
+        <POL> M. </POL>
+    </SPECIALIZATION>
+ <SPECIALIZATION>
+        <NAME> Oleg </NAME>
+        <TIME> 2002 </TIME>
+        <DATA> Nov. 10 </DATA>
+        <POL> M. </POL>
+    </SPECIALIZATION>
+ <SPECIALIZATION>
+        <NAME> Kate </NAME>
+        <TIME> 2004 </TIME>
+        <DATA> Mai. 12 </DATA>
+        <POL> F. </POL>
+    </SPECIALIZATION>
+</FACULTY>

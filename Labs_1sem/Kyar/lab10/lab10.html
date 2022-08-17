@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab10</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" media="(min-width:768px) and (max-width:1280px)" href="mediastyle.css">
+	<style>
+		@import url(mediastyle2.css) (min-width: 480px) and (max-width:768px);
+		@media (max-width: 480px) {
+			.imag img{
+				width: 150px;
+				height: 150px;
+			}
+			figure{
+				font-size: 10px;
+				font-weight: bold;
+				letter-spacing: 1px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">Заголовок</div>
+		<div class="cell1">ячейка 2</div>
+		<div class="cell2">ячейка 3</div>
+		<div class="cell3">ячейка 4</div>
+	</div>
+	<div class="main">
+		<div class="cell4">Flexbox разметка в CSS даёт один из наиболее эффективных способов расстановки, выравнивания и распределения места между элементами внутри контейнера, даже если их размер неизвестен или динамичен (собственно, по этому его и называют flex, от слова flexible, что по-английски имеет двойственное значение — гибкий и уступчивый, что очень сочетается с моделью поведения flexbox).</div>
+		<div class="cell5">Основной целью flexbox является предоставление возможности изменения своих элементов по ширине и высоте, для того, чтобы они максимально эффективно умещались в доступном месте родительского контейнера, в частности — это удобно в тех случаях, когда нужно соответствовать всем типам дисплеев устройств и размерам экранов. Flex контейнер расширяет вложенные элементы для того, чтобы заполнить доступное пространство или же урезает их, чтобы избежать переполнения.</div>
+	</div>
+	<div class="imag">
+		<figure>
+			<img src="flex1.png" alt="" class="igm1">
+			<figcaption>FlexBox</figcaption>
+		</figure>
+		<figure>
+			<img src="flex2.png" alt="" class="igm2">
+			<figcaption>FlexBox</figcaption>
+		</figure>
+		<figure>
+			<img src="flex3.jpg" alt="" class="igm3">
+			<figcaption>FlexBox</figcaption>
+		</figure>
+		<figure>
+			<img src="flex4.jpg" alt="" class="igm4">
+			<figcaption>FlexBox</figcaption>
+		</figure>
+	</div>
+	
+</body>
+</html>

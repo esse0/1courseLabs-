@@ -1,0 +1,292 @@
+body {
+  overflow-x: hidden;
+  background: url("../media/BG.png") no-repeat;
+  background-size: 100% 500px;
+}
+
+.margin {
+  margin-bottom: 177px;
+}
+
+.menu {
+  background: rgba(255, 77, 0, 0.25);
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 500px;
+}
+
+.menu .m_buttons {
+  position: relative;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+}
+
+.menu .m_buttons a {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 50;
+  font-size: 15px;
+  position: relative;
+}
+
+.menu .m_buttons li:active{
+  transform: scale(1.02);
+}
+
+.menu .tab2 {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu .tab2 .find {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  border-radius: 0;
+  background: #2D2586;
+  color: white;
+  width: 45%;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  margin: 15px 0px 0px 15px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+.find:hover{
+  background-color: #352b9e !important;
+}
+.find:active{
+  background: #251e6e !important;
+}
+
+.left::after{
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: white;
+  position: absolute;
+  margin-top: 26px;
+  left: 17.2%;
+  transition: left 0.3s ease-out 0s;
+}
+
+.right::after{
+  left: 54%;
+  transition: left 0.3s ease-out 0s;
+}
+
+.right2::after{
+  left: 87%;
+  transition: left 0.3s ease-out 0s;
+}
+
+.menu .tab2 .el {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.menu .tab2 .el label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+.menu .tab2 .el label:last-child {
+  margin-left: 5px;
+}
+
+.menu .tab2 .el input[type=text] {
+  width: 10px;
+}
+
+.menu .tab2 .el input {
+  background-color: #E1E1E1;
+  border: none;
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 40px;
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
+}
+
+.menu .tab2 .el input:last-child {
+  margin-left: 5px;
+}
+
+.menu .tab2 .el input, .menu .tab2 .el input::-webkit-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .tab2 .el input, .menu .tab2 .el input:-ms-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .tab2 .el input, .menu .tab2 .el input::-ms-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .tab2 .el input, .menu .tab2 .el input::placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .m_inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+.menu .m_inputs .el {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+.menu .m_inputs .el input[type=text], .menu .m_inputs .el select, .menu .m_inputs .el option {
+  width: 10px;
+}
+
+.menu .m_inputs .el input, .menu .m_inputs .el select {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
+}
+
+.menu .m_inputs .el input:last-child, .menu .m_inputs .el select:last-child {
+  margin-left: 5px;
+}
+
+.menu .m_inputs .find {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  border-radius: 0;
+  background: #2D2586;
+  color: white;
+  width: 30%;
+  cursor: pointer;
+}
+.menu input[type=text]{
+  cursor: initial !important;
+}
+
+.menu .m_inputs input, .menu .m_inputs select {
+  background-color: #E1E1E1;
+  border: none;
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu .m_inputs input, .menu .m_inputs input::-webkit-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .m_inputs input, .menu .m_inputs input:-ms-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .m_inputs input, .menu .m_inputs input::-ms-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .m_inputs input, .menu .m_inputs input::placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu .m_inputs select, .menu .m_inputs option {
+  cursor: pointer;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.map {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 600px;
+}
+
+.map .text {
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=frstpage.css.map */

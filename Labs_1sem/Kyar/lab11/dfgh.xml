@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?> 
+<SPECIALIZATION
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="SPECIALIZATION.xsd">
+<NAME>
+qwertyui
+</NAME>
+<TIME>
+sdfghjkl
+</TIME>
+<EXAM>
+mnbvcxcvbnm,
+</EXAM>
+<PAGES>
+lkjhgfds
+</PAGES>
+<PASSING>
+fghjkl;lkjhgfd
+</PASSING>
+</SPECIALIZATION>

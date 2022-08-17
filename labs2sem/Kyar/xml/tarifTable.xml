@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml:stylesheet type='text/xsl' href='ex03-1.xsl'?>
+<tariftable>
+	<table>
+        <name>Ручная кладь(Кол-во мест Хвес в кг)</name>
+        <eclass>1х10</eclass>
+        <cclass>1х10</cclass>
+        <bclass>1х15</bclass>
+    </table>
+    <table>
+        <name>Багаж(Кол-во мест X вес в кг)</name>
+        <eclass>2x23</eclass>
+        <cclass>2x23</cclass>
+        <bclass>2x32</bclass>
+    </table>
+    <table>
+        <name>Внесение изменений в билет</name>
+        <eclass>Да</eclass>
+        <cclass>Да</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Выбор мест</name>
+        <eclass>Да</eclass>
+        <cclass>Да</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Повышение в класс комфорт</name>
+        <eclass>За доп. плату</eclass>
+        <cclass>-</cclass>
+        <bclass>-</bclass>
+    </table>
+    <table>
+        <name>Повышение в класс бизнес</name>
+        <eclass>За доп. плату</eclass>
+        <cclass>За доп. плату</cclass>
+        <bclass>-</bclass>
+    </table>
+    <table>
+        <name>Стоповер</name>
+        <eclass>Да</eclass>
+        <cclass>Да</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Возврат провозной платы</name>
+        <eclass>Да</eclass>
+        <cclass>Да</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Открытая дата обратного вылета</name>
+        <eclass>Да</eclass>
+        <cclass>Да</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Приоритетная регистрация</name>
+        <eclass>-</eclass>
+        <cclass>Да</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Доступ в залы ожидания</name>
+        <eclass>-</eclass>
+        <cclass>-</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Приоритетная посадка</name>
+        <eclass>-</eclass>
+        <cclass>-</cclass>
+        <bclass>Да</bclass>
+    </table>
+    <table>
+        <name>Приоритетное обслуживание багажа</name>
+        <eclass>-</eclass>
+        <cclass>-</cclass>
+        <bclass>Да</bclass>
+    </table>
+</tariftable>

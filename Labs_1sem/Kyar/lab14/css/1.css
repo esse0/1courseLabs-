@@ -1,0 +1,31 @@
+
+
+.discribe {
+  fill: #2cc9f0;
+  font-size: 36px;
+  text-align: center;
+}
+
+#MyPath {
+  stroke: rgb(0, 0, 0);
+}
+
+.col-1 {
+  fill: #7cfff4;
+}
+
+.col-2 {
+  fill: #75dd67;
+}
+
+.col-3 {
+  fill: #7a3c86;
+}
+
+.col-4 {
+  fill: #d5f719;
+}
+
+.col-5 {
+  fill: #491aa0;
+}

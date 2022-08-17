@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Text</title>
+	<style>
+		@font-face {
+			font-family: Carveat;
+			src: url(Fonts/Caveatregular.woff);
+		}
+		@font-face {
+			font-family: Comfortaa;
+			src: url(Fonts/comfortaa.woff);
+		}
+		@font-face {
+			font-family: Exo2;
+			src: url(Fonts/exo2.woff);
+		}
+		.ps {
+			margin-bottom: 0;
+		}
+		.h {
+			margin-bottom: 0;
+		}
+		h1 {
+			font-family: Carveat;
+			font-weight: bold;
+			font-size: 45px;
+			text-align: center;
+			text-transform: uppercase;
+			text-shadow: 3px 4px 6px black;
+			margin-bottom: 0;
+		}
+		h2 {
+			font-family: Exo2;
+			text-align: left;
+			text-indent: 25px;
+			margin-top: 0.2rem;
+			margin-bottom: 1.2em;
+		}
+		p {
+			font-family: Comfortaa;
+			font-size: 20px;
+			text-align: justify;
+			text-indent: 25px;
+			margin-top: 0;
+			line-height: 200%;
+		}
+		p:first-letter {
+			font-weight: bold;
+			font-size: 45px;
+			color: white;
+			background-color: hsla(275, 100%, 10%, 1);
+		}
+		ol li {
+			list-style-type: none;
+			counter-increment: item;
+			font-family: Comfortaa;
+			font-size: 20px;
+		}
+		ol li:before{
+			content: counter(item, upper-roman) ". ";
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<h1>Практическая стрельба</h1>
+		<h2>Это - </h2>
+			<p class="ps"> Вид стрелкового спорта, имеющий целью усвоение и выработку приёмов, наиболее полно отвечающих различным случаям применения огнестрельного оружия.
+			Имея боевое происхождение, этот вид спорта сильно видоизменился, но и сегодня это наиболее прикладной вид спорта во многих специальных подразделениях.</p>
+			<p>Девизом практической стрельбы является: DILIGENTIA — VIS — CELERITAS (Точность — Мощность — Скорость) — то есть спортсмену предписывается умение точной и скоростной стрельбы из мощного оружия.</p>
+	<h2>Отличия от других видов стрелкового спорта</h2>
+		<p>Едва ли не главнейшим отличием практической стрельбы от других видов стрелкового спорта является разнообразие упражнений: для каждого упражнения в любом соревновании готовится, согласно инструкции: новая мишенная обстановка, новый набор препятствий и условий выполнения. Применение стандартных упражнений ограничено только квалификационными состязаниями. Мишени: зачетные, штрафные и бонусные, в том числе имеющие и не поражаемые покрытия - располагаются таким образом, чтобы дать стрелку возможность показать навыки точной и скоростной стрельбы в ситуации, приближённой к реальному применению оружия.</p>
+	<h2 class="h">Нарушение техники безопасности</h2>
+		<ol type="I">
+			<li>Выстрел, произведённый выше переднего или бокового пулезащитного вала</li>
+			<li>Выстрел, попадающий в землю на расстоянии ближе 3 метров от спортсмена</li>
+			<li>Выстрел, произошедший во время заряжания, разряжания или перезаряжания оружия</li>
+			<li>Выстрел, произошедший во время действий по устранению неисправности оружия</li>
+			<li>Выстрел, произошедший при перемещении оружия из одной руки в другую</li>
+		</ol>
+</body>
+</html>

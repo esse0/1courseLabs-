@@ -1,0 +1,130 @@
+$bg1 : "../media/BG.png"
+$svg : "../media/ru.svg"
+
+=middl()
+    margin-left: auto
+    margin-right: auto
+
+=flex($direction, $jcontent)
+    display: flex
+    flex-direction: $direction
+    justify-content: $jcontent
+
+=rubik($weight)
+    font:
+        family: 'Rubik'
+        style: normal
+        weight: $weight
+
+body
+    overflow-x: hidden
+    background: url($bg1) no-repeat
+    background-size: 100% 500px 
+
+.margin
+    margin-bottom: 177px
+
+.menu
+    background: rgba(255, 77, 0, 0.25)
+    border: 0.5px solid rgba(255, 255, 255, 0.3)
+    border-radius: 20px
+    width: 65%
+    +middl()
+    min-width: 500px
+    .m_buttons
+        padding: 10px
+        @include flex(row, space-around)
+        flex-direction: row
+        border-bottom: 1px solid white;
+        a
+            text-align: center
+            color: white
+            @include rubik(50)
+            font-ize: 15px
+    .tab2
+        margin: 10px
+        display: flex
+        flex-direction: column
+        .find
+            align-self: flex-end
+            border-radius: 0
+            background: #2D2586
+            color: white
+            width: 45%
+            cursor: pointer
+            border: none
+            height: 40px
+            margin: 15px 0px 0px 15px
+            @include rubik(400)
+            
+        .el
+            @include flex(row, space-between)
+            margin-bottom: 5px
+            label
+                flex: 1 1 33.33%
+                @include rubik(400)
+                color: white
+                &:last-child
+                    margin-left: 5px
+            input[type=text]
+                    width: 10px
+            input
+                background-color: #E1E1E1
+                border: none
+                border-radius: 5px
+                appearance: none
+                height: 40px
+                padding: 10px
+                flex: 1 1 33.33%
+                &:last-child
+                    margin-left: 5px
+            input, input::placeholder
+                @include rubik(400)
+
+    .m_inputs
+        display: flex
+        flex-direction: column
+        margin: 10px
+        .el
+            @include flex(row, space-between)
+            margin: 0 0 20px 0
+            input[type=text], select,option
+                width: 10px
+            input, select
+                flex: 1 1 33.33%
+                &:last-child
+                    margin-left: 5px
+        .find
+            align-self: flex-end
+            border-radius: 0
+            background: #2D2586
+            color: white
+            width: 30%
+            cursor: pointer
+        input, select
+            background-color: #E1E1E1
+            border: none
+            border-radius: 5px
+            appearance: none
+            height: 40px
+            padding: 10px
+        input, input::placeholder
+            @include rubik(400)
+        select,option
+            cursor: pointer
+            @include rubik(400)
+            
+.map
+    margin-top: 100px
+    +middl()
+    width: 90%
+    height: 600px
+    .text
+        text-align: center
+        font-family: 'Raleway'
+        font-style: normal
+        font-weight: 400
+        letter-spacing: 0.05em
+        margin-bottom: 50px
+
+

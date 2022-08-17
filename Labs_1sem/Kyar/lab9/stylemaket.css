@@ -1,0 +1,36 @@
+body{
+	display: grid;
+	grid-template-areas: "nav header header"
+						"nav article aside"
+						"footer footer footer";
+	grid-template-rows: 100px 380px 100px;
+	grid-template-columns: 100px 1fr 250px;
+	grid-gap: 15px;
+}
+header,nav,article,aside,footer{
+	background-color: green;
+	font-size: 30px;
+}
+header{
+	grid-area: header;
+}
+nav{
+	grid-area: nav;
+}
+article{
+	grid-area: article;
+}
+aside{
+	grid-area: aside;
+}
+footer{
+	grid-area: footer;
+}
+nav a{
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+	color: darkblue;
+	border: 2px solid lightblue;
+	border-radius: 3px;
+}

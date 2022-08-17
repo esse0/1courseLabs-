@@ -1,0 +1,49 @@
+$bg1 : url(/media/bg2.png)
+$bg2 : url(/media/inf.jpg)
+$svg : url(/media/ru.svg)
+
+
+=middl()
+    margin-left: auto
+    margin-right: auto
+
+body
+    background: $bg1 no-repeat
+    background-size: 100% 500%
+
+.i_info
+    border-radius: 7px 7px 5px 5px
+    background-color: #FFFDFD
+    .i_section
+        padding: 30px 30px 10px 30px
+        h3
+            margin-bottom: 15px
+            font-family: "Raleway"
+            font-weight: 600
+            font-size: 20px
+            letter-spacing: 0.04em
+        p
+            margin-bottom: 15px
+            font-family: "Raleway"
+            font-weight: 400
+            letter-spacing: 0.02em
+    .i_img
+        border-radius: 5px 5px 0 0
+        +middl()
+        width: 100%
+        height: 300px
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.3087) 0%, rgba(0, 0, 0, 0) 100%), $bg2 no-repeat
+        background-size: 100% 150%
+        background-position-y: -100px
+        .i_img_text
+            padding-top: 185px
+            padding-bottom: 40px
+            h1
+                margin-left: 30px
+                color: white
+                margin-top: 20px
+                font-family: 'Raleway'
+                font-style: normal
+                font-weight: 700
+                letter-spacing: 0.04em
+                font-size: 40px

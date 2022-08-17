@@ -1,0 +1,19 @@
+h1, h2, h3 {
+	color: purple;
+	font-family: Monotype Corsiva;
+}
+.sp1{
+	color: red;
+	font-family: Times New Roman;
+	font-size: 18pt;
+}
+.sp2{
+	color: yellow;
+	font-family: Times New Roman;
+	font-size: 20pt;
+}
+.sp3{
+	color: green;
+	font-family: Times New Roman;
+	font-size:	22pt;
+}

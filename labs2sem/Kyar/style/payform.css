@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+  list-style-type: none;
+  outline: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  height: 100%;
+}
+
+.w100 {
+  width: 60%;
+  min-width: 150px;
+}
+
+section {
+  min-width: 198px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #757575a9;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section p, section input, section select {
+  font-family: "Rubik";
+}
+
+section .contain {
+  margin-left: 15px;
+}
+
+section .head {
+  border-radius: 10px 10px 0 0;
+  background-color: #b8b8b8b4;
+  padding: 5px;
+}
+
+section .head h2 {
+  margin-left: 10px;
+  font-family: "Raleway";
+}
+
+section div {
+  margin-bottom: 10px;
+}
+
+section div input, section div select {
+  height: 30px;
+}
+
+section .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section .flex select {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
+  min-width: 53px;
+}
+
+section .flex .sec {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .flex .cvv {
+  min-width: 30px;
+  width: 30%;
+}
+
+section .last {
+  padding-bottom: 80px;
+}
+
+section #butt {
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1a73e8;
+  position: relative;
+  padding: 7px 15px 7px 15px;
+  float: right;
+  -webkit-transform: translateY(-60px);
+          transform: translateY(-60px);
+  max-width: 160px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+section #butt:hover {
+  background-color: #1b7eff;
+}
+
+section #butt:active {
+  background-color: #1359b4;
+}
+
+.back_link {
+  width: 50px;
+  margin: 10px;
+}
+
+.back_link img {
+  width: 100%;
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+.back_link a {
+  display: block;
+  border-radius: 50%;
+}
+
+.back_link a:active{
+  transform: scale(0.9);
+}
+/*# sourceMappingURL=payform.css.map */

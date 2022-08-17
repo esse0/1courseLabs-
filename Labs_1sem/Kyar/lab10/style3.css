@@ -1,0 +1,138 @@
+/*
+body{
+	background-image: url(bg2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 1vh;
+}*/
+#menu-mobile {
+/* чекбокс скрыт */
+display: none;
+}
+
+.main-menu {
+/* пункты меню скрыты */
+display: none;
+padding: 0;
+margin: 0;
+}
+.main-menu li {
+/* пункты меню расположены вертикально */
+/* каждый имеет ширину 100% */
+font-size: 16px;
+font-weight: 700;
+display: block;
+width: 100%;
+}
+.main-menu a {
+/* немного стилизуем ссылки */
+margin-right: -2px;
+display: block;
+border-bottom: 1px solid #000099;
+color: #000099;
+padding: 15px 40px;
+text-decoration: none;
+}
+.main-menu a:hover {
+text-decoration: underline;
+}
+/*****************************************/
+
+.toggle-button {
+margin-left: 2px;
+text-align: center;
+display: block;
+cursor: pointer;
+font-size: 16px;
+font-weight: 700;
+padding: 10px 55px 10px 40px;
+background-color: #000099;
+color: #fff;
+width: 281px;
+}
+#menu-mobile:checked + nav .toggle-button{
+color: #FFF7B2;
+}
+#menu-mobile:checked + nav .main-menu {
+/* когда чекбокс активен меню становится видимым */
+display: block;
+}
+
+@media screen and (min-width: 660px) {
+.toggle-button {
+/* label скрыт */
+display: none;
+}
+.main-menu {
+display: block;
+background-color: #000099;
+height: 49px;
+}
+
+.main-menu li {
+text-align: center;
+display: block;
+margin-bottom: 2px;
+}
+.main-menu a {
+
+margin-right: -4px;
+font-size: 18px;
+font-weight: 700;
+background-color: #000099;
+text-decoration: none;
+color: #fff;
+text-transform: capitalize;
+border-bottom: 0;
+}
+}
+
+header{
+	margin-right: 100px;
+}
+.container {	
+	display: flex;
+	flex-wrap: wrap;
+}
+.media{
+	width: 60%;
+}
+.mus {
+	display: flex;
+	flex-wrap: wrap;
+}
+.mus1, .mus2{
+	display: flex;
+	margin: 2px;
+}
+audio::-webkit-media-controls-panel{
+	/*background-image: url(bg2.png);
+	background-position:  center top;*/
+	background-color: white;
+	padding: 0px;
+}
+.music{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.song1{
+	width: 300px;
+	border: 2px solid #0000dd;
+	border-right: none;
+	border-left: none;
+}
+img{
+	border: 2px solid #0000dd;
+	border-right: none;
+	border-left: none;
+	height: 76px;
+	width: 76px;
+	align-self: center;
+}
+.vid{
+}
+video{
+	width: 376px;
+	margin: 2px;
+}

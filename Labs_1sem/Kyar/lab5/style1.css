@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div div{
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	float: left;
+	margin: 10px;
+	font-weight: bold;
+}
+h1{
+	padding-left: 10px;
+}
+.par1{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #FF7F50;
+	margin-bottom: 5px;
+}
+.par2{
+	border: 5px solid red;
+	border-radius: 20px/40px;
+	box-shadow: inset 2px -2px 8px 8px rgba(0,0,0,.5);
+	height: 30px;
+	overflow: auto;
+	margin-bottom: 5px;
+}
+.par3{
+	border: 2px solid #FF6347;
+	margin-bottom: 5px;
+}
+span{
+	display: block;
+	background-color: #FFA500;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #FF4500;
+}
+strong{
+	display: block;
+	background-color: #FFA500;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #FF4500;
+}
+a{
+	display: block;
+	background-color: #FFA500;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #FF4500;
+}
+.blk{
+	height: 70px;
+}
+
+#aa{
+	border: 6px outset rgb(255, 0, 0) ;
+}
+#bb{
+	border: 6px dashed rgb(0, 255, 0);
+}
+#cc{
+	border: 6px dotted rgb(0, 0, 255);
+}
+#dd{
+	border: 6px double rgb(0, 255, 255);
+}
+#ee{
+	border: 6px groove rgb(255, 0, 255);
+}
+#ff{
+	border: 6px inset rgb(255, 255, 0) ;
+}
+#gg{
+	border: 6px solid rgb(0, 0, 0) ;
+}
